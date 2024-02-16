@@ -1,0 +1,55 @@
+#average-form {
+    background-color: white;
+    padding: 17px;
+    text-align: center;
+    width: 575px;
+    margin: 5px auto;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+#average-form table {
+    margin: auto;
+}
+
+#average-form table:hover {
+    opacity: 1;
+    background-color:rgb(230, 252, 252);
+    border-radius: 10px;
+}
+
+#average-form-headers {
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#average-form-icon {
+    margin-right: 8px;
+    font-size: 1.1em;
+}
+
+#average-search-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#average-search-button:hover {
+    opacity: 1;
+}
+
+#average-price-container {
+    font-weight: bold;
+}
+
+#average-price-details-container {
+    font-style: italic;
+    font-size: small;
+}

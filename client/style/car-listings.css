@@ -1,0 +1,85 @@
+#listings-table {
+    margin-left: 150px;
+}
+
+#listing-row {
+    display: block;
+}
+
+
+
+/*--------------------*/
+
+.listings {
+    margin: auto;
+    text-align: center;
+}
+
+.listing {
+    background: azure;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    padding: 30px 50px;
+    width: 750px;
+    margin: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.listing h2 {
+    height: 1.5em;
+}
+
+.preview {
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    border-style: groove;
+    padding: 5px;
+}
+
+.preview>img {
+    object-fit: contain;
+    height: 150px;
+    width: 250px;
+}
+
+.no-cars {
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.data-info {
+    margin-top: 8px;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.info {
+    padding-left: 15px;
+}
+
+.data-buttons {
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.button-carDetails {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}

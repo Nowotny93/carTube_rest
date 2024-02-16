@@ -1,0 +1,99 @@
+#create-form {
+    background-color: white;
+    padding: 17px;
+    text-align: center;
+    width: 575px;
+    margin: 5px auto;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+#create-form table {
+    margin: auto;
+}
+
+#create-form table:hover {
+    opacity: 1;
+    background-color:rgb(230, 252, 252);
+    border-radius: 10px;
+}
+
+/*-------------MAIN INFORMATION TABLE--------------------*/
+
+
+#listing-main-infrmation td {
+    width: 150px;
+}
+
+#listing-main-infrmation td select {
+    width: 120px;
+}
+
+#listing-main-infrmation td input {
+    width: 120px;
+}
+
+/*-------------DESCRIPTION TABLE--------------------*/
+
+
+#description {
+    width: 500px;
+    height: 10vh;
+    resize: none;
+}
+
+
+/*-------------IMAGES TABLE--------------------*/
+
+#listing-images td input {
+    width: 170px;
+}
+
+/*-------------CONTACT INFO TABLE--------------------*/
+
+#listing-contact-info td {
+    width: 150px;
+}
+
+#listing-contact-info td input {
+    width: 120px;
+}
+
+#listing-contact-info td select {
+    width: 120px;
+}
+
+
+
+
+#create-form-headers {
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#create-form-label {
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#create-listing-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#create-listing-button:hover {
+    opacity: 1;
+}
+
+#create-form-icon {
+    margin-right: 8px;
+    font-size: 1.1em;
+}
